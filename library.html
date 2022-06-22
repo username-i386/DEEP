@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style_header.css">
+   <link rel="stylesheet" href="css/style_footer.css">
+   <link rel="stylesheet" href="css/style_grid.css">
+   <link rel="stylesheet" href="css/style_library.css">
+   <link rel="stylesheet" href="css/style_modal.css">
+   <link rel="icon" href="src/logo.svg">
+   <title>DEEP - Библиотека</title>
+</head>
+<body>
+   <main class="page">
+      <div class="container">
+         <section class="library">
+            <div class="library__title">Библиотека документаций</div>
+            <div class="library__grid-container grid-container">
+               <div class="library__grid-item grid-item">
+                  <div class="library__book-img">
+                     <img src="src/oceanlogy_book.jpg" alt="oceanlogy_book">
+                  </div>
+                  <div class="library__book-name">Исследования океана</div>
+                  <div class="library__book-description">
+                     В сборник включены статьи-доклады на пленарных заседаниях II Всесоюзного съезда океанологов (декабрь 1982 г.),
+                     который
+                     имел целью подвести итоги достижений океанологии за период времени, прошедший после I съезда (июнь 1977 г.), и
+                     наметил
+                     первоочередные задачи в исследовании Мирового океана на ближайшее будущее.
+                  </div>
+                  <div class="library__btn">
+                     <button id="buy_btn">Купить</button>
+                  </div>
+               </div>
+               <div class="library__grid-item grid-item">
+                  <div class="library__book-img">
+                     <img src="src/gidrophisic.jpg" alt="gidrophisic">
+                  </div>
+                  <div class="library__book-name">Гидрофизика</div>
+                  <div class="library__book-description">
+                     В книге рассматриваются молекулярная физика воды в трех ее агрегатных состояниях, основные физические свойства воды,
+                     льда, снега, основные положения теплообмена применительно к задачам гидрологии, а также различные физические процессы и
+                     явления, протекающие в воде, льде, снеге и почвогрунте. Излагаются методы теплотехнических расчетов водоемов и водотоков
+                     для летнего и зимнего периодов года. 
+                  </div>
+                  <div class="library__btn">
+                     <button id="buy_btn">Купить</button>
+                  </div>
+               </div>
+               <div class="library__grid-item grid-item">
+                  <div class="library__book-img">
+                     <img src="src/gidrohimia.jpg" alt="gidrohimia">
+                  </div>
+                  <div class="library__book-name">Гидрохимия</div>
+                  <div class="library__book-description">
+                     С позиций общей экологии изложены проблемы, имеющие глобальный характер и связанные с нарастанием экологической
+                     напряженности в мире: антропогенные изменения климата и проявления парникового эффекта, истощение озонового слоя,
+                     загрязнение окружающей среды (в том числе химическое, токсическое и радиоактивное, а также не изучавшиеся ранее виды
+                     загрязнении — биологическое и «генетическое»). 
+                  </div>
+                  <div class="library__btn">
+                     <button id="buy_btn">Купить</button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="modal">
+            <form class="modal__body" action="library_handler.php" target="_blank" method="post">
+               <label for="name">Введите имя</label>
+               <input type="text" name="name" id="name" placeholder="Например: Иванов Иван Иванович">
+               <label for="address">Введите адрес</label>
+               <input type="text" name="address" id="address" placeholder="Например: гор. Владивосток, ул. Шепеткова">
+               <label for="phone">Введите номер телефона</label>
+               <input type="tel" name="phone" id="phone" placeholder="Например: 8924555636">
+               <div class="library__btn">
+                  <button id="modal__btn" type="submit">Купить</button>
+               </div>
+               <div class="library__btn">
+                  <button id="modal__btn" type="reset">Выйти</button>
+               </div 
+            </form>
+         </section>
+      </div>
+   </main>
+
+   <script src="js/script_header.js"></script>
+   <script src="js/script_footer.js"></script>
+   <script src="js/script_menu_burger.js"></script>
+   <script src="js/script_modal.js"></script>
+</body>
+</html>

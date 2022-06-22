@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style_header.css">
+   <link rel="stylesheet" href="css/styles_about_us_screen.css">
+   <link rel="icon" href="src/logo.svg">
+   <title>DEEP - О нас</title>
+</head>
+<body>
+   <div class="wrapper">
+      <section class="content">
+         <div class="content__container">
+            <main class="page__about-us">
+               <section class="all-about-us">
+                  <div class="about-us-custom-container">
+                     <div class="all-about-us__title">All about us</div>
+                     <div class="all-about-us__flex-container">
+                        <div class="all-about-us__text">
+                           DEEP - Организация по изучению животного мира Марианской впадины имени Monkey D. Luffy также
+                           известный,
+                           как
+                           Strow Hat
+                           Luffy. Сайт предназначен для предоставления информации о фауне Марианской впадины.
+                        </div>
+                        <div class="all-about-us__img">
+                           <img src="src/Monkey_D_Luffy.png" alt="Monkey_D_Luffy">
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="contact">
+                  <div class="about-us-custom-container">
+                     <div class="contact__title">Контактная информация</div>
+                     <div class="contact__flex-container">
+                        <div class="contact__flex-item">
+                           <div class="contact__flex-item-social social-flex-item">
+                              <div class="contact__social-text text">Мы в социальных сетях</div>
+                              <div class="contact__social-icons">
+                                 <a href="#">
+                                    <img src="src/vk.svg" alt="vk">
+                                 </a>
+                                 <a href="#">
+                                    <img src="src/instagram.svg" alt="instagram">
+                                 </a>
+                                 <a href="#">
+                                    <img src="src/telegram.svg" alt="telegram">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="contact__flex-item-support social-flex-item">
+                              <div class="contact__support-text text">Поддержать проект</div>
+                              <div class="contact__support-icons">
+                                 <iframe width="300" height="300"
+                                    src="https://widget.qiwi.com/widgets/middle-widget-300x300?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iP4xMm7TGKDqK2YusPGTnMMLonYzSmiz77Maeyhdsz8EPDuwfXCFBAeJFT1yJVVNhPExSWBUCjPpuj5iDZ298CqBkAc4JvEQXFTRCyWXdfH"
+                                    allowtransparency="true" scrolling="no" frameborder="0"></iframe>
+                              </div>
+                           </div>
+                           <div class="contact__phone-number text social-flex-item">Телефон <br> 8(800) 555 35-35</div>
+                        </div>
+                        <div class="contact__flex-item contact__map">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87370.06629913805!2d49.03757238849864!3d54.86936095052125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415dad667808300d%3A0x1e533b2272ba9c08!2z0KLRgNC4INCe0LfQtdGA0LAsINCg0LXRgdC_LiDQotCw0YLQsNGA0YHRgtCw0L0sIDQyMjg0NQ!5e0!3m2!1sru!2sru!4v1654157631297!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="feedback">
+                  <div class="about-us-custom-container">
+                     <div class="feedback__form">
+                        <div class="feedback__title">Отправьте письмо</div>
+                        <form action="about_us_handler.php" method="POST" target="_blank">
+                           <div class="feedback__form-container">
+                              <div class="feedback__question-theme">
+                                 <label for="qeustions-theme">Тема сообщения</label>
+                                 <select name="qeustions-theme" id="qeustions-theme">
+                                    <option value="ПРЕДЛОЖЕНИЯ" selected>Предложения</option>
+                                    <option value="ЗАМЕЧЕНА ОШИБКА">Замечена ошибка</option>
+                                    <option value="БЛАГОДАРНОСТИ">Благодарности</option>
+                                    <option value="ДРУГОЕ">Другое</option>
+                                 </select>
+                              </div>
+                              <div class="feedback__email">
+                                 <label for="email">E-mail</label>
+                                 <input name="email" type="email" id="email" placeholder="Введите e-mail">
+                              </div>
+                              <div class="feedback__username">
+                                 <label for="username">Имя</label>
+                                 <input name="username" type="text" id="username" placeholder="Введите ваше имя">
+                              </div>
+                           </div>
+                           <div class="feedback__message">
+                              <label for="message">Сообщение</label>
+                              <textarea name="message" id="message" placeholder="Введите ваше сообщение"></textarea>
+                           </div>
+                           <button type="submit">Отправить</button>
+                        </form>
+                     </div>
+                  </div>
+               </section>
+   
+            </main>
+      </section>
+      <section class="full-screen">
+         <div class="full-screen__body">
+            <div class="full-screen__title">Присоединяйся</div>
+            <div class="full-screen__text">Будет весело</div>
+         </div>
+         <video src="src/amv.mp4" autoplay loop preload="auto" muted class="full-screen__video"></video>
+      </section>
+   </div>
+   
+   <script src="js/script_header.js"></script>
+   <script src="js/script_menu_burger.js"></script>
+</body>
+</html>
