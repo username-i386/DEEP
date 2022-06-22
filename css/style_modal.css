@@ -1,0 +1,39 @@
+.modal {
+   background-color: rgba(0, 0, 0, 0.494);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 12;
+   display: none;
+}
+
+.modal__body {
+   background-color: #fff;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   max-width: 500px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   justify-content: space-between;
+   border-radius: 15px;
+}
+
+label, 
+input,
+button {
+   display: block;
+   font-size: 24px;
+   font-weight: 600;
+   text-align: center;
+}
+
+input {
+   font-weight: 400;
+   text-align-last: left;
+}

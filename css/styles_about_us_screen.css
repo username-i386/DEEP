@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Playfair Display";
+  background-image: url(https://gen.jut.su/chakranature/background_anime_onepiece.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+body._lock {
+  overflow: hidden;
+}
+
+.about-us-custom-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+
+.page__about-us {
+  margin: 87.19px 0 0 0;
+  padding: 15px 0 0 0;
+}
+
+.all-about-us__title {
+  background-color: #2C626D;
+  width: 250px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+
+.all-about-us__flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 15px;
+}
+
+.all-about-us__text {
+  width: 900px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 55px;
+  color: #000000;
+}
+
+.all-about-us__img img {
+  height: 500px;
+}
+
+@media (max-width: 797px) {
+  .all-about-us__text {
+    font-size: 20px;
+    line-height: normal;
+    margin: 0 0 10px 0;
+  }
+  .all-about-us__title {
+    line-height: normal;
+    padding: 10px 0;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 424px) {
+  .all-about-us__title {
+    width: 100%;
+  }
+}
+
+.contact {
+  margin-top: 25px;
+}
+
+.contact__title {
+  background-color: #2C626D;
+  max-width: 450px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+
+.contact__flex-container {
+  margin: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+.contact__flex-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0 15px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact__social-icons img {
+  max-width: 75px;
+}
+
+.contact__support-icons img {
+  max-width: 75px;
+}
+
+.contact__map {
+  width: 80%;
+  text-align: center;
+  padding: 30px;
+  -webkit-box-shadow: -1px -1px 85px -23px black;
+          box-shadow: -1px -1px 85px -23px black;
+  background-color: #2C626D;
+  border-radius: 30px;
+}
+
+.contact__map iframe {
+  width: 100%;
+  height: 600px;
+}
+
+.social-flex-item {
+  text-align: center;
+}
+
+@media (max-width: 797px) {
+  .contact__support-text,
+  .contact__phone-number,
+  .contact__social-text {
+    font-size: 24px;
+    line-height: normal;
+    margin: 0 0 10px 0;
+  }
+  .contact__title {
+    line-height: normal;
+    padding: 10px 0;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 559px) {
+  .contact__map iframe {
+    height: 300px;
+  }
+}
+
+@media (max-width: 424px) {
+  .contact__support-text,
+  .contact__phone-number,
+  .contact__social-text {
+    font-size: 20px;
+    line-height: normal;
+    margin: 0 0 10px 0;
+  }
+  .contact__flex-container {
+    width: 100%;
+    padding: 0;
+  }
+  .contact__map {
+    padding: 5px;
+    width: 100%;
+  }
+  .contact__map iframe {
+    border-radius: 30px;
+  }
+}
+
+.feedback {
+  padding: 50px 0;
+}
+
+.feedback__form-container {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.feedback__form {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+  -webkit-box-shadow: -1px -1px 85px -23px black;
+          box-shadow: -1px -1px 85px -23px black;
+}
+
+.feedback__form select {
+  width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.feedback__form label {
+  display: block;
+  margin: 10px 0 0px;
+}
+
+.feedback__form input {
+  max-width: 94%;
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.feedback__form textarea {
+  width: 80%;
+  height: 200px;
+  padding: 15px 0 0 15px;
+  resize: none;
+  border-radius: 5px;
+}
+
+.feedback__form button {
+  background-color: #2C626D;
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+.feedback__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 80px;
+  padding: 15px 0 0 0;
+}
+
+@media (max-width: 344px) {
+  .feedback input,
+  .feedback select,
+  .feedback button {
+    width: 80%;
+  }
+  .feedback__title {
+    font-size: 24px;
+    line-height: normal;
+  }
+}
+
+.full-screen {
+  position: relative;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.full-screen__body {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgba(0, 0, 0, 0.355);
+}
+
+.full-screen__title {
+  font-size: 50px;
+  letter-spacing: 25px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.full-screen__text {
+  font-size: 18px;
+  letter-spacing: 15px;
+}
+
+.full-screen__video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 9;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  background-image: url(https://gen.jut.su/chakranature/background_anime_onepiece.dark.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.content__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.content__container p {
+  margin: 0 0 20px 0;
+}
+
+@media (max-width: 832px) {
+  .full-screen__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 647px) {
+  .full-screen {
+    display: none;
+  }
+}
